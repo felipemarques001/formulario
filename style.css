@@ -1,0 +1,95 @@
+body{
+    background-image: url(./images/fakurian-design-lW1UCeHMPS8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* container */
+.container{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto;
+}
+/* header */
+.header{
+    color: white;
+}
+.header h1{
+    font-size: 50px;
+}
+.header p{
+    font-size: 20px;
+}
+/* main */
+#textodecima{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+#textodecima p{
+    padding: 10px;
+}
+
+
+/* input */
+
+#input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+#input input, button{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 10px;
+    display: block;
+}
+#input button{
+    width: 92%;
+    height: 40px;
+    background-color: rgb(59, 194, 59);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+#input button:hover{
+    font-size: 18px;
+    border: #1c1c1c 1px solid;
+}
+#input p{
+    font-size: 12px;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    margin-top: 17vh;
+}
+
+@media(max-width: 817px) {
+    .container{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+@media(max-width: 767px) {
+    .container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+@media(max-width: 585px) {
+    .container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    }}
+}
